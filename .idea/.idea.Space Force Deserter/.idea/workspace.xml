@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a785985f-de96-4b20-8b4d-46796ab9830b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SkyProfile-131966193259367736.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SkyProfile-131966193259367736.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SkyProfile-808814679159367736.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SkyProfile-808814679159367736.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WaterProfile_618460316259367736.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WaterProfile_618460316259367736.asset.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../3d/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="22ySvqt11qeYhzxp2QpyToWbzbI" />
   <component name="ProjectViewState">
@@ -23,6 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -56,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640808569348</updated>
       <workItem from="1640808586252" duration="21000" />
+      <workItem from="1640880833905" duration="3742000" />
     </task>
     <servers />
   </component>
