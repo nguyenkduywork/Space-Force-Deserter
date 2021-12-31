@@ -18,27 +18,33 @@ public class PlayerControls : MonoBehaviour
     float xThrow, yThrow;
     void FixedUpdate()
     {
-        processTranslation();
-        processRotation();
+        ProcessTranslation();
+        ProcessRotation();
     }
     
-    void processRotation()
+    void ProcessRotation()
     {
-        transform.localRotation = Quaternion.Euler(-30f, 30f, 0f);
         float pitchDueToPosition = transform.localPosition.y * positionPitchFactor;
-        //this is to simulate real life movement, when
+        //this is to simulate real life movements, when
         //the player move up/down the rocket is slowly tilting up/down too
         float pitchDueToControlThrow = yThrow * controlPitchFactor;
 
         float pitch = pitchDueToPosition + pitchDueToControlThrow;
+        
+        //yaw is the rotation around the y-axis, here we use local position of x
+        //because when we move horizontally, we should rotate around the y-axis too to simulate real life movements
+        //(ex. when we go to the left, the ship's nose will turn to the left a bit too)
         float yaw = transform.localPosition.x * positionYawFactor;
+        
+        //roll is the rotation around the z-axis, when we go left/right, the whole body of the ship will tilt too
+        //using xthrow as it is the horizontal input, which is what we need
         float roll = xThrow * controlRollFactor;
         
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
 
     }
     
-    void processTranslation()
+    void ProcessTranslation()
     {
         xThrow = Input.GetAxis("Horizontal");
 

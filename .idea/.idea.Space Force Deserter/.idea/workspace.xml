@@ -4,14 +4,9 @@
     <list default="true" id="a785985f-de96-4b20-8b4d-46796ab9830b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyProfile-131966193259367736.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyProfile-131966193259367736.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyProfile-808814679159367736.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyProfile-808814679159367736.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WaterProfile_618460316259367736.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WaterProfile_618460316259367736.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerControls.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Master Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Timeline/Master Timeline.playable" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +64,7 @@
       <updated>1640808569348</updated>
       <workItem from="1640808586252" duration="21000" />
       <workItem from="1640880833905" duration="3742000" />
+      <workItem from="1640959118748" duration="1245000" />
     </task>
     <servers />
   </component>
