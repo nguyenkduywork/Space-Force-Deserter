@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a785985f-de96-4b20-8b4d-46796ab9830b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerControls.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Master Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Timeline/Master Timeline.playable" afterDir="false" />
-    </list>
+    <list default="true" id="a785985f-de96-4b20-8b4d-46796ab9830b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +58,7 @@
       <updated>1640808569348</updated>
       <workItem from="1640808586252" duration="21000" />
       <workItem from="1640880833905" duration="3742000" />
-      <workItem from="1640959118748" duration="1245000" />
+      <workItem from="1640959118748" duration="1281000" />
     </task>
     <servers />
   </component>
