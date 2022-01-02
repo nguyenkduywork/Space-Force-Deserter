@@ -216,7 +216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2089353585816095827, guid: 09fa508dec3987145ae065e67c33dd50, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 175
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 2089353585816095827, guid: 09fa508dec3987145ae065e67c33dd50, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
@@ -240,6 +240,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09fa508dec3987145ae065e67c33dd50, type: 3}
+--- !u!1 &1249685601020280212 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2089353585816095821, guid: 09fa508dec3987145ae065e67c33dd50, type: 3}
+  m_PrefabInstance: {fileID: 984360234249761241}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5197806083853486962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -321,7 +326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2089353585816095827, guid: 09fa508dec3987145ae065e67c33dd50, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 160
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 2089353585816095827, guid: 09fa508dec3987145ae065e67c33dd50, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
@@ -345,6 +350,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09fa508dec3987145ae065e67c33dd50, type: 3}
+--- !u!1 &6114957128478377791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2089353585816095821, guid: 09fa508dec3987145ae065e67c33dd50, type: 3}
+  m_PrefabInstance: {fileID: 5197806083853486962}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5794338366694609220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -361,9 +371,21 @@ PrefabInstance:
       value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1510365029189717, guid: 89e7a8347074ae24ba089e6eb5451aae, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1510365029189717, guid: 89e7a8347074ae24ba089e6eb5451aae, type: 3}
       propertyPath: positionYawFactor
       value: 2.1
       objectReference: {fileID: 0}
+    - target: {fileID: 1510365029189717, guid: 89e7a8347074ae24ba089e6eb5451aae, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1249685601020280212}
+    - target: {fileID: 1510365029189717, guid: 89e7a8347074ae24ba089e6eb5451aae, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 6114957128478377791}
     - target: {fileID: 5160227044371355466, guid: 89e7a8347074ae24ba089e6eb5451aae, type: 3}
       propertyPath: m_Name
       value: StarSparrow_Wing_Right

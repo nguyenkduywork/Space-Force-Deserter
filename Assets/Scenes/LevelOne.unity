@@ -1012,6 +1012,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1249685601020280202, guid: de9360c54d178494c89e25b7b95a2288, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 225
+      objectReference: {fileID: 0}
     - target: {fileID: 3930749609549456855, guid: de9360c54d178494c89e25b7b95a2288, type: 3}
       propertyPath: m_Name
       value: Player Rig
@@ -1059,6 +1063,10 @@ PrefabInstance:
     - target: {fileID: 3930749609549456856, guid: de9360c54d178494c89e25b7b95a2288, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114957128478377761, guid: de9360c54d178494c89e25b7b95a2288, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 225
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de9360c54d178494c89e25b7b95a2288, type: 3}
