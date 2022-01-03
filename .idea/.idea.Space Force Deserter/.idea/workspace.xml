@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a785985f-de96-4b20-8b4d-46796ab9830b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Laser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Laser.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Laser.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Laser.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Rig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Rig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../3d/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Boosteroid/Assets/Scripts/CollisionHandler.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="22ySvqt11qeYhzxp2QpyToWbzbI" />
   <component name="ProjectViewState">
@@ -63,6 +72,7 @@
       <workItem from="1640959118748" duration="1281000" />
       <workItem from="1641121901202" duration="2279000" />
       <workItem from="1641133448439" duration="674000" />
+      <workItem from="1641223455886" duration="1607000" />
     </task>
     <servers />
   </component>
