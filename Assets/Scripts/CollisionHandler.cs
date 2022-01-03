@@ -8,9 +8,11 @@ public class CollisionHandler : MonoBehaviour
 {
     [Header("Time until moving to next level")]
     [SerializeField] private float waitTime;
-  
+
+    public Canvas sucess;
     private void Start()
     {
+        Invoke("turnOnSucessCanvas",waitTime - 2f);
         Invoke("NextLevel",waitTime);
     }
     
@@ -18,7 +20,11 @@ public class CollisionHandler : MonoBehaviour
     {
         RespondToDebugKeys();
     }
-    
+
+    void turnOnSucessCanvas()
+    {
+        sucess.enabled = true;
+    }
     void RespondToDebugKeys()
     {
         if (Input.GetKeyDown(KeyCode.L))
