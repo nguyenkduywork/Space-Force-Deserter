@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a785985f-de96-4b20-8b4d-46796ab9830b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particles/Particle Square.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particles/Particle Square.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particles/Particle Star.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particles/Particle Star.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particles/Particle Star.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particles/Particle Star.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particles/Particle Star.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particles/Particle Star.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Rig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Rig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollisionHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Timeline/Master Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Timeline/Master Timeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerControls.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +75,7 @@
       <workItem from="1640959118748" duration="1281000" />
       <workItem from="1641121901202" duration="2279000" />
       <workItem from="1641133448439" duration="674000" />
-      <workItem from="1641223455886" duration="2984000" />
+      <workItem from="1641223455886" duration="4351000" />
     </task>
     <servers />
   </component>

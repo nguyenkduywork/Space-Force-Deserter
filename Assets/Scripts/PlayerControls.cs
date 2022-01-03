@@ -88,7 +88,7 @@ public class PlayerControls : MonoBehaviour
     }
     
     //turn off emission module when we dont fire anymore
-    void SetLaserActive(bool active)
+    public void SetLaserActive(bool active)
     {
         foreach (GameObject laser in lasers)
         {

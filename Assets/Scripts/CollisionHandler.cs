@@ -9,6 +9,8 @@ public class CollisionHandler : MonoBehaviour
     [Header("Time until moving to next level")]
     [SerializeField] private float waitTime;
 
+    [SerializeField] private ParticleSystem crashVFX;
+
     public Canvas sucess;
     private void Start()
     {
@@ -56,6 +58,11 @@ public class CollisionHandler : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log($"{name} TRIGGERED BY {other.gameObject.name}");
-        Invoke("ReloadLevel",0.5f);
+        crashVFX.Play();
+        GetComponent<MeshRenderer>().enabled = false;
+        GetComponent<PlayerControls>().enabled = false;
+        GetComponent<PlayerControls>().SetLaserActive(false);
+        GetComponent<BoxCollider>().enabled = false;
+        Invoke("ReloadLevel", 1f);
     }
 }
