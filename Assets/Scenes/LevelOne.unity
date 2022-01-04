@@ -1168,6 +1168,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1977900791}
     m_Modifications:
+    - target: {fileID: 1256334364, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1749302611}
+    - target: {fileID: 1430901202, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1749302611}
     - target: {fileID: 1626707168461546, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
       propertyPath: m_Name
       value: Enemy2
@@ -1323,6 +1331,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1977900791}
     m_Modifications:
+    - target: {fileID: 1256334364, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1749302611}
+    - target: {fileID: 1430901202, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1749302611}
     - target: {fileID: 1626707168461546, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
       propertyPath: m_Name
       value: Enemy4
@@ -1385,6 +1401,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1977900791}
     m_Modifications:
+    - target: {fileID: 1256334364, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1749302611}
+    - target: {fileID: 1430901202, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1749302611}
     - target: {fileID: 1626707168461546, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
       propertyPath: m_Name
       value: Enemy3
@@ -1447,6 +1471,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 238355848}
     m_Modifications:
+    - target: {fileID: 1628063498, guid: ba40a60074a505d48b216ebc896c5ca0, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1749302611}
     - target: {fileID: 1628063498, guid: ba40a60074a505d48b216ebc896c5ca0, type: 3}
       propertyPath: deathVFX
       value: 
@@ -1611,6 +1639,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 499879368}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1749302610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1749302611}
+  m_Layer: 0
+  m_Name: Spawns at Runtime
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1749302611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749302610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 292.6969, y: 79.42147, z: 419.87054}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1849500997
 GameObject:
