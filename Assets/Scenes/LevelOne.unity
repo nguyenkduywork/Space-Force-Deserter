@@ -1316,14 +1316,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1977900791}
     m_Modifications:
-    - target: {fileID: 1256334364, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
-      propertyPath: parent
-      value: 
-      objectReference: {fileID: 1749302611}
-    - target: {fileID: 1430901202, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
-      propertyPath: score
-      value: 30
-      objectReference: {fileID: 0}
     - target: {fileID: 1430901202, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
       propertyPath: parent
       value: 
@@ -1483,14 +1475,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1977900791}
     m_Modifications:
-    - target: {fileID: 1256334364, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
-      propertyPath: parent
-      value: 
-      objectReference: {fileID: 1749302611}
-    - target: {fileID: 1430901202, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
-      propertyPath: score
-      value: 30
-      objectReference: {fileID: 0}
     - target: {fileID: 1430901202, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
       propertyPath: parent
       value: 
@@ -1557,14 +1541,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1977900791}
     m_Modifications:
-    - target: {fileID: 1256334364, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
-      propertyPath: parent
-      value: 
-      objectReference: {fileID: 1749302611}
-    - target: {fileID: 1430901202, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
-      propertyPath: score
-      value: 30
-      objectReference: {fileID: 0}
     - target: {fileID: 1430901202, guid: 79e4c0d1647edb24e82e40e6b4bcaa7b, type: 3}
       propertyPath: parent
       value: 
@@ -1732,25 +1708,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 238355848}
     m_Modifications:
     - target: {fileID: 1628063498, guid: ba40a60074a505d48b216ebc896c5ca0, type: 3}
-      propertyPath: score
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1628063498, guid: ba40a60074a505d48b216ebc896c5ca0, type: 3}
       propertyPath: parent
       value: 
       objectReference: {fileID: 1749302611}
-    - target: {fileID: 1628063498, guid: ba40a60074a505d48b216ebc896c5ca0, type: 3}
-      propertyPath: deathVFX
-      value: 
-      objectReference: {fileID: 3200836327345539238, guid: ef5e5ab2534d81b43a5868cba00c36ca, type: 3}
-    - target: {fileID: 1628063499, guid: ba40a60074a505d48b216ebc896c5ca0, type: 3}
-      propertyPath: m_Size.y
-      value: 3.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1628063499, guid: ba40a60074a505d48b216ebc896c5ca0, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8310756242303647570, guid: ba40a60074a505d48b216ebc896c5ca0, type: 3}
       propertyPath: m_Name
       value: Enemy1
@@ -2152,6 +2112,10 @@ PrefabInstance:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 1562188061}
+    - target: {fileID: 5795285685031409937, guid: de9360c54d178494c89e25b7b95a2288, type: 3}
+      propertyPath: DPS
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de9360c54d178494c89e25b7b95a2288, type: 3}
 --- !u!198 &3930749609682328225 stripped

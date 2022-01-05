@@ -20,6 +20,9 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] private float controlPitchFactor = -10f;
     [SerializeField] float controlRollFactor = -20f;
     
+    [Header("Player damage per shot")]
+    [SerializeField] public int DPS = 10;
+    
     float xThrow, yThrow;
     
 
@@ -33,7 +36,11 @@ public class PlayerControls : MonoBehaviour
         ProcessTranslation();
         ProcessRotation();
     }
-    
+
+    public int getDPS()
+    {
+        return DPS;
+    }
     void ProcessRotation()
     {
         float pitchDueToPosition = transform.localPosition.y * positionPitchFactor;

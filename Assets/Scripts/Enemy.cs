@@ -9,20 +9,25 @@ public class Enemy : MonoBehaviour
     [Header("This is to tidy up explosion vfx in the hierarchy")]
     [SerializeField] private Transform parent;
 
-    [Header("Score earned when shot down")] [SerializeField]
-    private int score;
+    [Header("Score earned when being hit with a particle")]
+    [SerializeField] private int scorePerHit = 1;
+
+    [Header("Enemy HPs")] 
+    [SerializeField] private int HP;
 
     private ScoreBoard scoreBoard;
-
+    private int playerDps;
     private void Start()
     {
+        playerDps = FindObjectOfType<PlayerControls>().getDPS();
         scoreBoard = FindObjectOfType<ScoreBoard>();
     }
 
+
     void OnParticleCollision(GameObject other)
     {
-        ProcessScore();
-        DestroyEnemy();
+        processHits();
+        if(HP <= 0) DestroyEnemy();
     }
 
     private void DestroyEnemy()
@@ -33,8 +38,9 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void ProcessScore()
+    private void processHits()
     {
-        scoreBoard.IncreaseScore(score);
+        HP -= playerDps;
+        scoreBoard.IncreaseScore(scorePerHit);
     }
 }
