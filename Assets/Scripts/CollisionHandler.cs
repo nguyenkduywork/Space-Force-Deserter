@@ -12,6 +12,9 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] private ParticleSystem crashVFX;
 
     public Canvas sucess;
+    public Canvas scoreBoard;
+    
+    //Turn on success screen when camera animation is over, also turn off score board
     private void Start()
     {
         Invoke("turnOnSucessCanvas",waitTime - 2f);
@@ -25,7 +28,13 @@ public class CollisionHandler : MonoBehaviour
 
     void turnOnSucessCanvas()
     {
+        turnOffScoreBoard();
         sucess.enabled = true;
+    }
+
+    void turnOffScoreBoard()
+    {
+        scoreBoard.enabled = false;
     }
     void RespondToDebugKeys()
     {

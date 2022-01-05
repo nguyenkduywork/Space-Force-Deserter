@@ -36,6 +36,5 @@ public class Enemy : MonoBehaviour
     private void ProcessScore()
     {
         scoreBoard.IncreaseScore(score);
-        scoreBoard.getScore();
     }
 }
