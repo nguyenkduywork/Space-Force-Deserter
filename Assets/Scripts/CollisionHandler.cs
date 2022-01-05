@@ -67,10 +67,10 @@ public class CollisionHandler : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         crashVFX.Play();
+        GetComponent<BoxCollider>().enabled = false;
         GetComponent<MeshRenderer>().enabled = false;
         GetComponent<PlayerControls>().enabled = false;
         GetComponent<PlayerControls>().SetLaserActive(false);
-        GetComponent<BoxCollider>().enabled = false;
         Invoke("ReloadLevel", 1f);
     }
 }
