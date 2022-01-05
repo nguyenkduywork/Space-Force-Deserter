@@ -66,7 +66,6 @@ public class CollisionHandler : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log($"{name} TRIGGERED BY {other.gameObject.name}");
         crashVFX.Play();
         GetComponent<MeshRenderer>().enabled = false;
         GetComponent<PlayerControls>().enabled = false;

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a785985f-de96-4b20-8b4d-46796ab9830b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Laser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Laser.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Metal Light 2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Metal Light 2.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollisionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollisionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Boosteroid/Assets/Scripts/Movement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../3d/Assets/Scripts/UI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Boosteroid/Assets/Scripts/Menu.cs" root0="SKIP_HIGHLIGHTING" />
@@ -81,6 +86,7 @@
       <workItem from="1641330547617" duration="1642000" />
       <workItem from="1641392553083" duration="6076000" />
       <workItem from="1641410735989" duration="147000" />
+      <workItem from="1641418647131" duration="2424000" />
     </task>
     <servers />
   </component>

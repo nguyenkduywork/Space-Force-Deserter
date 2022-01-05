@@ -5,6 +5,12 @@ using UnityEngine.SocialPlatforms.Impl;
 public class Enemy : MonoBehaviour
 {
 
+    private AudioSource audioSource;
+    private ScoreBoard scoreBoard;
+    private int playerDps;
+    private MeshRenderer mesh;
+    private BoxCollider collider;
+    
     [SerializeField] private GameObject deathVFX;
     [Header("This is to tidy up explosion vfx in the hierarchy")]
     [SerializeField] private Transform parent;
@@ -14,27 +20,44 @@ public class Enemy : MonoBehaviour
 
     [Header("Enemy HPs")] 
     [SerializeField] private int HP;
-
-    private ScoreBoard scoreBoard;
-    private int playerDps;
+    
+    [SerializeField] private AudioClip explosions;
+    
+   
+    
     private void Start()
     {
         playerDps = FindObjectOfType<PlayerControls>().getDPS();
         scoreBoard = FindObjectOfType<ScoreBoard>();
+        audioSource = GetComponent<AudioSource>();
+        mesh = GetComponent<MeshRenderer>();
+        collider = GetComponent<BoxCollider>();
     }
 
 
     void OnParticleCollision(GameObject other)
     {
         processHits();
-        if(HP <= 0) DestroyEnemy();
+        if (HP <= 0)
+        {
+            if(!audioSource.isPlaying) audioSource.PlayOneShot(explosions);
+            DestroyEnemySpecialEffects();
+            Invoke("DestroyEnemy",1f);
+        }
     }
 
-    private void DestroyEnemy()
+    private void DestroyEnemySpecialEffects()
     {
         GameObject vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
         //move vfx objects inside a parent folder to clear up the hierarchy 
         vfx.transform.parent = parent;
+        mesh.enabled = false;
+        collider.enabled = false;
+
+    }
+
+    void DestroyEnemy()
+    {
         Destroy(gameObject);
     }
 
