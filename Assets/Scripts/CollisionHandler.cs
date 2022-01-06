@@ -45,7 +45,7 @@ public class CollisionHandler : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Escape))
         {
-            //SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("MainMenu");
         }
     }
 

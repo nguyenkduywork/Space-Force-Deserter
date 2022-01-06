@@ -13,7 +13,6 @@ public class Enemy : MonoBehaviour
     GameObject parentGameObject;
 
     [SerializeField] private GameObject deathVFX;
-    [Header("This is to tidy up explosion vfx in the hierarchy")]
 
     [Header("Score earned when being hit with a particle")]
     [SerializeField] private int scorePerHit = 1;
