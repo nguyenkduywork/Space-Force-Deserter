@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     private int playerDps;
     private MeshRenderer mesh;
     private BoxCollider collider;
-    
+
     [SerializeField] private GameObject deathVFX;
     [Header("This is to tidy up explosion vfx in the hierarchy")]
     [SerializeField] private Transform parent;
@@ -29,9 +29,16 @@ public class Enemy : MonoBehaviour
     {
         playerDps = FindObjectOfType<PlayerControls>().getDPS();
         scoreBoard = FindObjectOfType<ScoreBoard>();
+        AddRigidBody();
         audioSource = GetComponent<AudioSource>();
         mesh = GetComponent<MeshRenderer>();
         collider = GetComponent<BoxCollider>();
+    }
+
+    private void AddRigidBody()
+    {
+        gameObject.AddComponent<Rigidbody>();
+        GetComponent<Rigidbody>().useGravity = false;
     }
 
 
