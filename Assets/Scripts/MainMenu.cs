@@ -1,18 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    private Canvas main;
+    public HowToPlay howTo;
+    private void Start()
     {
+        main = GetComponent<Canvas>();
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnPlayButton ()
     {
-        
+        SceneManager.LoadScene(1);
+    }
+    public void OnQuitButton ()
+    {
+        Application.Quit();
+    }
+
+    public void OnHowToButton ()
+    {
+        main.enabled = false;
+        howTo.Enable();
+    }
+
+    public void Enable()
+    {
+        main.enabled = true;
     }
 }
