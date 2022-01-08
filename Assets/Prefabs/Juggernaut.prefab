@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 802597700883371935}
   - component: {fileID: 8217098854167223710}
   - component: {fileID: 5632472801203887895}
+  - component: {fileID: 1159674750}
   m_Layer: 0
   m_Name: Juggernaut
   m_TagString: Enemy
@@ -97,9 +98,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: ef5e5ab2534d81b43a5868cba00c36ca, type: 3}
-  parent: {fileID: 0}
   scorePerHit: 20
-  HP: 300
+  HP: 70
   explosions: {fileID: 8300000, guid: 0d05c9bcb041c094ab7d1e3b55f18330, type: 3}
 --- !u!82 &8217098854167223710
 AudioSource:
@@ -210,3 +210,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.92, y: 2.42, z: 12.217751}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &1159674750
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183924685592254676}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a785985f-de96-4b20-8b4d-46796ab9830b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Space Force Deserter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PawnFighter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PawnFighter.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelOne.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelTwo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelTwo.unity" afterDir="false" />
@@ -92,7 +93,7 @@
       <workItem from="1641500636260" duration="2574000" />
       <workItem from="1641509061839" duration="265000" />
       <workItem from="1641561590810" duration="1587000" />
-      <workItem from="1641656891659" duration="633000" />
+      <workItem from="1641656891659" duration="1071000" />
     </task>
     <servers />
   </component>

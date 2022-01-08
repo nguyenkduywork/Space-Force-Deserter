@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2770951477834150905}
   - component: {fileID: -267450814145779449}
   - component: {fileID: 5137357475650172828}
+  - component: {fileID: 1557177745}
   m_Layer: 0
   m_Name: Y-Wing
   m_TagString: Enemy
@@ -97,10 +98,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 0}
-  parent: {fileID: 0}
-  scorePerHit: 15
-  HP: 40
-  explosions: {fileID: 0}
+  scorePerHit: 20
+  HP: 30
+  explosions: {fileID: 8300000, guid: 0d05c9bcb041c094ab7d1e3b55f18330, type: 3}
 --- !u!82 &-267450814145779449
 AudioSource:
   m_ObjectHideFlags: 0
@@ -210,3 +210,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9.2, y: 3.61, z: 11.309124}
   m_Center: {x: 0.00000047683716, y: -0.000006198883, z: -0.0000011920929}
+--- !u!95 &1557177745
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2770189778343791497}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
