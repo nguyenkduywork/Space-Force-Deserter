@@ -97,7 +97,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: ef5e5ab2534d81b43a5868cba00c36ca, type: 3}
-  parent: {fileID: 0}
   scorePerHit: 1
   HP: 10
   explosions: {fileID: 8300000, guid: 0d05c9bcb041c094ab7d1e3b55f18330, type: 3}

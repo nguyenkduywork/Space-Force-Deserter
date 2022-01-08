@@ -52,9 +52,9 @@ public class Enemy : MonoBehaviour
         processHits();
         if (HP <= 0)
         {
-            if(!audioSource.isPlaying) audioSource.PlayOneShot(explosions);
-            DestroyEnemySpecialEffects();
             Invoke("DestroyEnemy",1f);
+            DestroyEnemySpecialEffects();
+            if(!audioSource.isPlaying) audioSource.PlayOneShot(explosions);
         }
     }
 
