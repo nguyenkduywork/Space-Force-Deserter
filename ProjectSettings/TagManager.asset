@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Land
   - SpawnRuntime
+  - friendly
+  - Test
   layers:
   - Default
   - TransparentFX

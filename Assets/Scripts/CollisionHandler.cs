@@ -67,7 +67,14 @@ public class CollisionHandler : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(!audioSource.isPlaying) audioSource.PlayOneShot(PlayerExplosions);
+        DestroyPlayer();
+    }
+
+    
+
+    public void DestroyPlayer()
+    {
+        if (!audioSource.isPlaying) audioSource.PlayOneShot(PlayerExplosions);
         crashVFX.Play();
         GetComponent<BoxCollider>().enabled = false;
         GetComponent<MeshRenderer>().enabled = false;

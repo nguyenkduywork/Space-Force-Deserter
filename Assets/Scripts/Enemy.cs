@@ -49,12 +49,15 @@ public class Enemy : MonoBehaviour
 
     void OnParticleCollision(GameObject other)
     {
-        processHits();
-        if (HP <= 0)
+        if (other.CompareTag("friendly") == false)
         {
-            Invoke("DestroyEnemy",1f);
-            DestroyEnemySpecialEffects();
-            if(!audioSource.isPlaying) audioSource.PlayOneShot(explosions);
+            processHits();
+            if (HP <= 0)
+            {
+                Invoke("DestroyEnemy", 1f);
+                DestroyEnemySpecialEffects();
+                if (!audioSource.isPlaying) audioSource.PlayOneShot(explosions);
+            }
         }
     }
 
