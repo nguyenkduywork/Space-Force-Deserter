@@ -69,10 +69,14 @@ public class CollisionHandler : MonoBehaviour
     {
         DestroyPlayer();
     }
+    
 
-    private void OnParticleTrigger()
+    private void OnParticleCollision(GameObject other)
     {
-        DestroyPlayer();
+        if (other.CompareTag("friendly"))
+        {
+            DestroyPlayer();
+        }
     }
 
 
