@@ -70,7 +70,11 @@ public class CollisionHandler : MonoBehaviour
         DestroyPlayer();
     }
 
-    
+    private void OnParticleTrigger()
+    {
+        DestroyPlayer();
+    }
+
 
     public void DestroyPlayer()
     {
